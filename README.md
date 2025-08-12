@@ -8,3 +8,5 @@ SageMath xxx
 CUDD xxx -> specifically dd library cython cudd
 Python
 C? 
+
+How to run each script? 
