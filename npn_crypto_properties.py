@@ -74,7 +74,7 @@ if __name__ == "__main__":
     print("Please input the n of your function.")
     N = int(input())
 
-    filenameN = "npn_robdd_results_n" + str(N) + ".csv"
+    filenameN = "npn-" + str(N) + "-args.csv"
 
     df = pd.read_csv(
         filenameN,
