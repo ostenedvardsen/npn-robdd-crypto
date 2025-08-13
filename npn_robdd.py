@@ -75,7 +75,7 @@ def main():
     print("Please input the n of your function.")
     N = int(input())
 
-    filenameN = "npn_" + str(N) + "_args.csv"
+    filenameN = "npn-" + str(N) + "-args.csv"
 
     df = pd.read_csv(
         filenameN,
@@ -137,11 +137,11 @@ def main():
             size_distribution_list
         ])
 
-    filenameX = 'npn_robdd_results_n' + N + '.csv'
+    filenameX = 'npn_robdd_results_n' + str(N) + '.csv'
 
     with open(filenameX, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(data)
 
 
-print(main())
+main()
