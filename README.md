@@ -12,7 +12,7 @@ The NPN classes must be supplied in a CSV file with the columns:
 - CUDD via the `dd` library
 
 ## How to run
-Place `npn_robdd.py`, `npn_crypto_properties.py`, and `combine_csv.py` in the same folder as `npn_N_args.csv`. The file of NPN classes must be called `npn-N-args.csv`, where the N is replaced with the dimension of the classes. Open a terminal and navigate to that folder. 
+Place `npn_robdd.py`, `npn_crypto_properties.py`, and `combine_csv.py` in the same folder as `npn-N-args.csv`. The file of NPN classes must be called `npn-N-args.csv`, where the N is replaced with the dimension of the classes. Open a terminal and navigate to that folder. 
 
 Run: 
 1. `python npn_robdd.py`. When prompted with "Please input the n of your function.", input the value of N.
